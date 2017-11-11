@@ -13,6 +13,11 @@
 		FC5E47D01FB7842E00C2AB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5E47CF1FB7842E00C2AB1F /* Assets.xcassets */; };
 		FC5E47D31FB7842E00C2AB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E47D11FB7842E00C2AB1F /* LaunchScreen.storyboard */; };
 		FC5E47DE1FB7842F00C2AB1F /* OrganizeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E47DD1FB7842F00C2AB1F /* OrganizeMeTests.swift */; };
+		FC5E47EB1FB7854A00C2AB1F /* Opening Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E47EA1FB7854A00C2AB1F /* Opening Screen.storyboard */; };
+		FC5E47ED1FB7861A00C2AB1F /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E47EC1FB7861A00C2AB1F /* Timer.storyboard */; };
+		FC5E47EF1FB7862B00C2AB1F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E47EE1FB7862B00C2AB1F /* Profile.storyboard */; };
+		FC5E47F11FB7867C00C2AB1F /* AddTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E47F01FB7867C00C2AB1F /* AddTask.storyboard */; };
+		FC5E47F31FB7870000C2AB1F /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E47F21FB7870000C2AB1F /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		FC5E47D91FB7842F00C2AB1F /* OrganizeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganizeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5E47DD1FB7842F00C2AB1F /* OrganizeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizeMeTests.swift; sourceTree = "<group>"; };
 		FC5E47DF1FB7842F00C2AB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5E47EA1FB7854A00C2AB1F /* Opening Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Opening Screen.storyboard"; sourceTree = "<group>"; };
+		FC5E47EC1FB7861A00C2AB1F /* Timer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+		FC5E47EE1FB7862B00C2AB1F /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FC5E47F01FB7867C00C2AB1F /* AddTask.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTask.storyboard; sourceTree = "<group>"; };
+		FC5E47F21FB7870000C2AB1F /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				FC5E47CF1FB7842E00C2AB1F /* Assets.xcassets */,
 				FC5E47D11FB7842E00C2AB1F /* LaunchScreen.storyboard */,
 				FC5E47D41FB7842E00C2AB1F /* Info.plist */,
+				FC5E47EA1FB7854A00C2AB1F /* Opening Screen.storyboard */,
+				FC5E47EC1FB7861A00C2AB1F /* Timer.storyboard */,
+				FC5E47EE1FB7862B00C2AB1F /* Profile.storyboard */,
+				FC5E47F01FB7867C00C2AB1F /* AddTask.storyboard */,
+				FC5E47F21FB7870000C2AB1F /* Settings.storyboard */,
 			);
 			path = OrganizeMe;
 			sourceTree = "<group>";
@@ -179,9 +194,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5E47F11FB7867C00C2AB1F /* AddTask.storyboard in Resources */,
+				FC5E47EF1FB7862B00C2AB1F /* Profile.storyboard in Resources */,
+				FC5E47ED1FB7861A00C2AB1F /* Timer.storyboard in Resources */,
+				FC5E47F31FB7870000C2AB1F /* Settings.storyboard in Resources */,
 				FC5E47D31FB7842E00C2AB1F /* LaunchScreen.storyboard in Resources */,
 				FC5E47D01FB7842E00C2AB1F /* Assets.xcassets in Resources */,
 				FC5E47CE1FB7842E00C2AB1F /* Main.storyboard in Resources */,
+				FC5E47EB1FB7854A00C2AB1F /* Opening Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
